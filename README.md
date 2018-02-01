@@ -35,5 +35,5 @@ tidy_data <- summarize(total_group, time.body.accleration.mean.X = mean(time.bod
                        time.body.accleration.std.Y = mean(time.body.accleration.std.Y), 
                        time.body.accleration.std.Z = mean(time.body.accleration.std.Z))
 ## caculate the mean of the grouped data
-write.csv(tidy_data, file = "tidy_data.csv")
+write.csv(tidy_data, file = "tidy_data.txt")
 ## output the tidy data
