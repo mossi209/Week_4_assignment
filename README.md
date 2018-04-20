@@ -1,4 +1,4 @@
-# Week_4_assignment
+# Week_4_assignment//First edit 
 This is the assignment for Getting and Cleaning Data
 subject_test <- read.table("~/UCI HAR Dataset/test/subject_test.txt", col.names = "subject")
 y_test <- read.table("~/UCI HAR Dataset/test/y_test.txt", col.names = "activity")
